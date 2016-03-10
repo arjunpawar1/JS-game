@@ -1,0 +1,3 @@
+var c,d,e;
+function f(){var h=Math.random();setTimeout(function(){document.getElementById("box").style.borderRadius=.5<Math.random()?"20px":"600px";var a=500*Math.random();document.getElementById("box").style.bottom=40*Math.random()+"px";document.getElementById("box").style.left=a+"px";for(var a="0123456789ABCDEF".split(""),b="#",g=0;6>g;g++)b+=a[Math.round(10*Math.random())];document.getElementById("box").style.backgroundColor=b;document.getElementById("box").style.display="block";d=Date.now()},5E3*h)}
+document.getElementById("box").onclick=function(){c=Date.now();e=(c-d)/1E3;document.getElementById("time").innerHTML=e;this.style.display="none";f()};f();
